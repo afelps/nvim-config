@@ -1,12 +1,12 @@
-# AFelps's Nvim configuartion
+# AFelps's Nvim configuration
 
 This is a repo to store some neovim configuration files.
 
 ## Requirements
 
-There are some requiremnts for getting the configuration to work:
+There are some requirements for getting the configuration to work:
 
-- intall the `vim-plug` plug manager for vim. Details [here](https://github.com/junegunn/vim-plug)
+- install the `vim-plug` plug manager for vim. Details [here](https://github.com/junegunn/vim-plug)
 - you should have `node 10+`
 - apparently you should have `yarn` aswell
 - obviously you should have `neovim`
@@ -37,8 +37,8 @@ Another option is to create a symbolic link with `ln -s`.
 
 ### Considerations
    The plugged folder is not included in this configuration. So you'll have to openup the `init.vim` file and type in `:PlugInstall` to install all the plugins correctly.
-   Some might have another dependencies that were not covered here. If so, just follow the instructions.
-   For the coc plugin you should install them using `:CocInstall <coc package>`.
+   Some might have other dependencies that were not covered here. If so, just follow the instructions.
+   You should install the coc plugins using `:CocInstall <coc package>`.
    There are loads of coc packages like coc-java, coc-json, coc-sh, coc-xml, etc.
 
    By default this configuration will use `gruvbox` as the theme for nvim.
